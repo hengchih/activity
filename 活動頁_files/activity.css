@@ -563,6 +563,10 @@ a {
   box-sizing: border-box;
   padding: 5px;
   width: 50%;
+  -webkit-box-flex: none;
+  -ms-flex: none;
+  -webkit-flex: none;
+  flex: none;
 }
 @media only screen and (min-width: 768px) {
   .activity-wrapper .basic-banner-widget > .banner-li {
@@ -591,6 +595,10 @@ a {
   box-sizing: border-box;
   padding: 5px;
   width: 50%;
+  -webkit-box-flex: none;
+  -ms-flex: none;
+  -webkit-flex: none;
+  flex: none;
 }
 @media only screen and (min-width: 768px) {
   .activity-wrapper .info-module-banner-widget > .banner-li {
@@ -619,6 +627,10 @@ a {
   box-sizing: border-box;
   padding: 5px;
   width: 50%;
+  -webkit-box-flex: none;
+  -ms-flex: none;
+  -webkit-flex: none;
+  flex: none;
 }
 @media only screen and (min-width: 768px) {
   .activity-wrapper .product-banner-widget > .banner-li {
@@ -695,6 +707,10 @@ a {
   box-sizing: border-box;
   padding: 5px;
   width: 50%;
+  -webkit-box-flex: none;
+  -ms-flex: none;
+  -webkit-flex: none;
+  flex: none;
 }
 @media only screen and (min-width: 768px) {
   .activity-wrapper .package-banner-widget > .banner-li {
