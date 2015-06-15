@@ -359,11 +359,9 @@ a {
 
 .vertical-container {
   display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -moz-justify-content: center;
   -ms-justify-content: center;
   -webkit-justify-content: center;
   justify-content: center;
@@ -405,15 +403,12 @@ a {
 
 .activity-wrapper .header-widget {
   display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -moz-align-items: center;
   -ms-align-items: center;
   -webkit-align-items: center;
   align-items: center;
-  -moz-justify-content: center;
   -ms-justify-content: center;
   -webkit-justify-content: center;
   justify-content: center;
@@ -438,7 +433,6 @@ a {
 }
 .activity-wrapper .tab-widget {
   display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
@@ -453,7 +447,7 @@ a {
   display: block;
 }
 .activity-wrapper .tab-widget .tab-li {
-  -moz-flex: 1;
+  -webkit-box-flex: 1;
   -ms-flex: 1;
   -webkit-flex: 1;
   flex: 1;
@@ -484,11 +478,9 @@ a {
 }
 .activity-wrapper .banner-widget .banner-shop-info {
   display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -moz-align-items: center;
   -ms-align-items: center;
   -webkit-align-items: center;
   align-items: center;
@@ -522,11 +514,9 @@ a {
 }
 .activity-wrapper .banner-widget .banner-fee-container {
   display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -moz-align-items: flex-end;
   -ms-align-items: flex-end;
   -webkit-align-items: flex-end;
   align-items: flex-end;
@@ -535,14 +525,14 @@ a {
 .activity-wrapper .banner-widget .banner-origin-fee {
   font-size: 13px;
   color: #999;
-  -moz-flex: 1;
+  -webkit-box-flex: 1;
   -ms-flex: 1;
   -webkit-flex: 1;
   flex: 1;
 }
 .activity-wrapper .banner-widget .banner-discount-fee {
   font-size: 24px;
-  -moz-flex: 1;
+  -webkit-box-flex: 1;
   -ms-flex: 1;
   -webkit-flex: 1;
   flex: 1;
@@ -562,11 +552,9 @@ a {
 }
 .activity-wrapper .basic-banner-widget {
   display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -moz-flex-flow: wrap;
   -ms-flex-flow: wrap;
   -webkit-flex-flow: wrap;
   flex-flow: wrap;
@@ -578,7 +566,7 @@ a {
 }
 @media only screen and (min-width: 768px) {
   .activity-wrapper .basic-banner-widget > .banner-li {
-    -moz-flex: 1;
+    -webkit-box-flex: 1;
     -ms-flex: 1;
     -webkit-flex: 1;
     flex: 1;
@@ -592,11 +580,9 @@ a {
 }
 .activity-wrapper .info-module-banner-widget {
   display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -moz-flex-flow: wrap;
   -ms-flex-flow: wrap;
   -webkit-flex-flow: wrap;
   flex-flow: wrap;
@@ -608,7 +594,7 @@ a {
 }
 @media only screen and (min-width: 768px) {
   .activity-wrapper .info-module-banner-widget > .banner-li {
-    -moz-flex: 1;
+    -webkit-box-flex: 1;
     -ms-flex: 1;
     -webkit-flex: 1;
     flex: 1;
@@ -622,11 +608,9 @@ a {
 }
 .activity-wrapper .product-banner-widget {
   display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -moz-flex-flow: wrap;
   -ms-flex-flow: wrap;
   -webkit-flex-flow: wrap;
   flex-flow: wrap;
@@ -638,7 +622,7 @@ a {
 }
 @media only screen and (min-width: 768px) {
   .activity-wrapper .product-banner-widget > .banner-li {
-    -moz-flex: 1;
+    -webkit-box-flex: 1;
     -ms-flex: 1;
     -webkit-flex: 1;
     flex: 1;
@@ -653,16 +637,13 @@ a {
 .activity-wrapper .product-banner-widget > .banner-shop-info {
   width: 100%;
   display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -moz-align-items: center;
   -ms-align-items: center;
   -webkit-align-items: center;
   align-items: center;
   margin-bottom: 10px;
-  -moz-justify-content: center;
   -ms-justify-content: center;
   -webkit-justify-content: center;
   justify-content: center;
@@ -690,13 +671,12 @@ a {
 @media only screen and (min-width: 768px) {
   .activity-wrapper .package-banner-widget-wrapper {
     display: -webkit-box;
-    display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
   }
   .activity-wrapper .package-banner-widget-wrapper .package-banner-widget {
-    -moz-flex: 1;
+    -webkit-box-flex: 1;
     -ms-flex: 1;
     -webkit-flex: 1;
     flex: 1;
@@ -704,11 +684,9 @@ a {
 }
 .activity-wrapper .package-banner-widget {
   display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -moz-flex-flow: wrap;
   -ms-flex-flow: wrap;
   -webkit-flex-flow: wrap;
   flex-flow: wrap;
@@ -720,7 +698,7 @@ a {
 }
 @media only screen and (min-width: 768px) {
   .activity-wrapper .package-banner-widget > .banner-li {
-    -moz-flex: 1;
+    -webkit-box-flex: 1;
     -ms-flex: 1;
     -webkit-flex: 1;
     flex: 1;
@@ -737,7 +715,7 @@ a {
 }
 @media only screen and (min-width: 768px) {
   .activity-wrapper .package-banner-widget > .banner-li {
-    -moz-flex: none;
+    -webkit-box-flex: none;
     -ms-flex: none;
     -webkit-flex: none;
     flex: none;
@@ -746,16 +724,13 @@ a {
 .activity-wrapper .package-banner-widget > .banner-shop-info {
   width: 100%;
   display: -webkit-box;
-  display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  -moz-align-items: center;
   -ms-align-items: center;
   -webkit-align-items: center;
   align-items: center;
   margin-bottom: 10px;
-  -moz-justify-content: center;
   -ms-justify-content: center;
   -webkit-justify-content: center;
   justify-content: center;
